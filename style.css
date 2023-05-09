@@ -1,27 +1,27 @@
-*{
+* {
     direction: ltr;
     box-sizing: border-box;
 }
 
-body{
+body {
     margin: 0px;
     font-size: 16px;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
 
-.main-container{
+.main-container {
     font-size: 1em;
     width: 100%;
 }
 
-    /* phone */
+/* phone */
 
-.phone{
-    background-color: rgba(0,0,0,.03);
+.phone {
+    background-color: rgba(0, 0, 0, .03);
     width: 400px;
     min-height: 100vh;
     margin: 0px auto;
@@ -29,7 +29,7 @@ a{
 
 /* footer */
 
-.main-container .phone .footer{
+.main-container .phone .footer {
     position: fixed;
     bottom: 0px;
     background-color: white;
@@ -38,26 +38,103 @@ a{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-   
-}
-
-.footer a{
 
 }
-.footer i{
-  font-size: 1.4em;
-}
-.footer .img-container{
-  border: 1px solid #333;
-  border-radius: 50%;
-  padding: 3px;
-}
-.footer .img-container a{
 
+.footer a {}
+
+.footer i {
+    font-size: 1.4em;
 }
-.footer .img-container img{
-  width:35px;
-  height: 35px;
-  border-radius: 50%;
-  display: flex;
+
+.footer .img-container {
+    border: 1px solid #333;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.footer .img-container a {}
+
+.footer .img-container img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+}
+
+/* head-nav */
+
+.head-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.head-nav .right {}
+
+.head-nav .right .id {
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #333;
+}
+
+.head-nav .right a {}
+
+.head-nav .right i {
+    font-size: 1.5em;
+}
+
+.head-nav .left {}
+
+.head-nav .left a {}
+
+.head-nav .left i {
+    font-size: 1.5em;
+}
+
+/* profile */
+
+.profile {}
+
+.profile .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.profile .info .img-container {
+    position: relative;
+}
+
+.profile .info .img-container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.profile .info .img-container a {}
+
+.profile .info .img-container i {
+    color: #3498db;
+    position: absolute;
+    bottom: 7px;
+    right: 1px;
+    font-size: 1.2em;
+}
+
+.profile .info .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile .item .num {
+    font-weight: bold;
+}
+
+.profile .item .disc {
+    color: #333;
 }
