@@ -138,3 +138,16 @@ a {
 .profile .item .disc {
     color: #333;
 }
+.profile .caption{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+}
+.profile .caption .id{
+    color: #333;
+    font-weight: bold;
+}
+.profile .caption .tag{
+   color: #3498db;
+}
