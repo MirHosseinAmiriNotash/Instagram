@@ -152,6 +152,19 @@ a {
    color: #3498db;
 }
 
+/* Edit Profile Button */
+.profile .edit-profile{
+    display: block;
+    background-color: white;
+    padding:6px 0px ;
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    border-radius: 6px;
+    margin: 10px;
+    border: 1px solid rgba(0, 0, 0, .2);
+}
+
 /* story */
 .story{
     display:flex;
