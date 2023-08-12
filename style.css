@@ -226,10 +226,50 @@ a {
   color: #333;
 }
 
+/* nav-bar */
+
+.nav-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-bar div{
+    flex: 1;
+    text-align: center;
+}
+
+.nav-bar i{
+   font-size: 1.5em;
+   color: #777;
+   padding: 15px;
+}
+
+.nav-bar .grid{
+  border-bottom: 1.5px solid #333;
+
+}
+
+.nav-bar .grid i {
+    color: #333 !important;
+    cursor: pointer;
+}
+.nav-bar .usertag{
+
+}
+
+.nav-bar .usertag i{
+  cursor: pointer;
+}
+
 /* posts */
 
 .posts{
-
+ display: grid;
+ grid-template-columns: repeat(auto-fit , minmax(100px , 1fr));
+ gap: 2px;
+ padding-bottom: 100px;
+ padding-top: 10px;
 }
 
 .posts img{
