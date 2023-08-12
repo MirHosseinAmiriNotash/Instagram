@@ -5,7 +5,7 @@
 
 body {
     margin: 0px;
-    font-size: 16px;
+    font-size: 1em;
 }
 
 a {
@@ -16,6 +16,7 @@ a {
 .main-container {
     font-size: 1em;
     width: 100%;
+    
 }
 
 /* phone */
@@ -38,7 +39,7 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-
+    
 }
 
 .footer a {}
@@ -223,4 +224,16 @@ a {
 .story .story-highlight span{
   margin-top: 5px;
   color: #333;
+}
+.posts .nav .post{
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ gap: 2px;
+ padding-bottom: 80px;
+}
+
+.posts .nav .post img{
+ height: 130px;
+ width: 130px;
+ 
 }
