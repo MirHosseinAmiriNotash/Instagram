@@ -270,6 +270,8 @@ a {
  gap: 2px;
  padding-bottom: 100px;
  padding-top: 10px;
+ grid-auto-flow: dense;
+ grid-auto-rows: 120px;
 }
 
 .posts img{
